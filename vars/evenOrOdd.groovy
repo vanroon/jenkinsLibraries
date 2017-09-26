@@ -11,14 +11,9 @@ def call(int buildNumber){
       }
     }
   } else {
-    pipeline {
-      agent any
-      stages {
-        stage ('Odd stage') {
-          steps {
-            echo "Num is odd!"
-          }
-        }
+    node {
+      stage ('Odd stage') {
+        echo "Num is odd!"
       }
     }
   }
