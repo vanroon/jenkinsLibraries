@@ -13,7 +13,7 @@ def call(int buildNumber){
   } else {
     node {
       stage ('Odd stage') {
-        echo "Num is odd!"
+        echo "SCRIPT Num is odd!"
       }
     }
   }
