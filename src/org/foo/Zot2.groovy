@@ -9,7 +9,7 @@ def mail(recipients, subject, replyTo, from, body){
     bcc: '', \
     body: body, \
     cc: '', \
-    from: from \
+    from: from, \
     replyTo: replyTo, \
     subject: subject, \
     to: recipients
