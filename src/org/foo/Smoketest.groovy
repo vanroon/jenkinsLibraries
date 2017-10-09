@@ -1,6 +1,6 @@
 pacakge org.foo;
 
-def Smoke(dockerImage){
+def smoke(dockerImage){
   //step1
   sh "echo print this docker image ${dockerImage}"
   //step2
