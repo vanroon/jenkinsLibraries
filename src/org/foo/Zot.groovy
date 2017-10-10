@@ -2,5 +2,5 @@
 package org.foo;
 
 def hello() {
-	echo ''
+	echo 'new item: Dinsdag 10 oct'
 }
